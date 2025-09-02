@@ -1,0 +1,138 @@
+/* Кастомная кнопка редактирования */
+.edit-btn {
+  background: #f5faff !important;
+  color: #1677ff !important;
+  border: 1.5px solid #1677ff !important;
+  border-radius: 7px !important;
+  font-weight: 500 !important;
+  box-shadow: 0 2px 8px 0 rgba(22,119,255,0.08);
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.edit-btn:hover, .edit-btn:focus {
+  background: #1677ff !important;
+  color: #fff !important;
+  border-color: #0958d9 !important;
+}
+/* Фиксированный белый фон и высота для тела таблицы обслуженных клиентов */
+.ant-table-body {
+  background: #fff !important;
+  min-height: 665px !important;
+ 
+}
+body { 
+  font-family: system-ui, sans-serif;
+  font-size: 15px;
+}
+
+.selected-row { 
+  background:#e6f4ff !important; 
+}
+
+/* Глобальное увеличение шрифта для компонентов Ant Design */
+.ant-typography {
+  font-size: 15px !important;
+}
+
+.ant-table {
+  font-size: 15px !important;
+}
+
+.ant-table-thead > tr > th {
+  font-size: 15px !important;
+}
+
+.ant-table-tbody > tr > td {
+  font-size: 15px !important;
+}
+
+/* Дополнительные специфичные правила для таблиц */
+.ant-table-cell {
+  font-size: 15px !important;
+}
+
+.ant-table td {
+  font-size: 15px !important;
+}
+
+.ant-table th {
+  font-size: 15px !important;
+}
+
+/* Правила для конкретного контейнера таблицы */
+.table-scroll-container .ant-table,
+.table-scroll-container .ant-table *,
+.fixed-table-container .ant-table,
+.fixed-table-container .ant-table * {
+  font-size: 15px !important;
+}
+
+/* Увеличиваем размер выпадающих списков */
+.ant-select-dropdown {
+  min-width: 300px !important;
+  max-height: 400px !important;
+}
+
+.ant-select-item {
+  padding: 8px 12px !important;
+  font-size: 15px !important;
+  min-height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ant-select-item-option-content {
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+}
+
+/* Увеличиваем размер самого селекта */
+.ant-select-large .ant-select-selector {
+  min-height: 40px !important;
+  padding: 6px 11px !important;
+}
+
+.ant-select-large .ant-select-selection-item {
+  font-size: 15px !important;
+  line-height: 28px !important;
+}
+
+.ant-input, .ant-input-affix-wrapper {
+  font-size: 15px !important;
+}
+
+.ant-select-selector {
+  font-size: 15px !important;
+}
+
+.ant-btn {
+  font-size: 15px !important;
+}
+
+.ant-card-head-title {
+  font-size: 16px !important;
+}
+
+.ant-card-body {
+  font-size: 15px !important;
+}
+
+.ant-menu-item {
+  font-size: 15px !important;
+}
+
+.ant-pagination {
+  font-size: 15px !important;
+}
+
+/* Обеспечиваем перенос длинного текста */
+.text-wrap {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.ant-table-cell {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
